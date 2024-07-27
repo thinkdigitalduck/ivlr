@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-08 21:15:19.593306",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shift_setting_tab",
+  "how_many_day_should_make_as",
+  "leave_type",
+  "column_break_j0ir3",
+  "mark_on_leave",
+  "section_break_lh2mo",
+  "month"
+ ],
+ "fields": [
+  {
+   "fieldname": "shift_setting_tab",
+   "fieldtype": "Tab Break",
+   "label": "Shift Setting"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "month",
+   "fieldtype": "Table",
+   "label": "Month",
+   "options": "Date table"
+  },
+  {
+   "fieldname": "how_many_day_should_make_as",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "How many day should make as "
+  },
+  {
+   "fieldname": "column_break_j0ir3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "leave_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Leave Type",
+   "options": "Leave Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_lh2mo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mark_on_leave",
+   "fieldtype": "Button",
+   "label": "Mark on leave"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-07-04 10:47:55.636921",
+ "modified_by": "Administrator",
+ "module": "Ivlr",
+ "name": "IVLR Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,38 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-05-30 15:48:22.801543",
+ "disable_prepared_report": 0,
+ "disabled": 1,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2024-06-03 18:52:22.823597",
+ "modified_by": "Administrator",
+ "module": "Ivlr",
+ "name": "Daily Attendance",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Attendance",
+ "report_name": "Daily Attendance",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "Employee Self Service"
+  }
+ ]
+}

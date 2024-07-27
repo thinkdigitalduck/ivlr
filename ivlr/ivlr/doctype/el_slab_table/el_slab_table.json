@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-25 11:22:58.805535",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "branch",
+  "slab_type",
+  "from_present",
+  "to_present",
+  "earned_leave"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Branch",
+   "options": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "slab_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Slab Type",
+   "options": "\n30 Days\n31 Days\n28 Days\n29 Days\nAny",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from_present",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "From Present",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_present",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "To Present",
+   "reqd": 1
+  },
+  {
+   "fieldname": "earned_leave",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Earned Leave",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-25 11:25:38.682086",
+ "modified_by": "Administrator",
+ "module": "Ivlr",
+ "name": "EL Slab Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
